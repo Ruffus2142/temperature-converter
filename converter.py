@@ -46,3 +46,6 @@ except ValueError:
     print("Помилка: введіть коректне число!")
 
 # Test commit with PAT
+
+# Local change test
+

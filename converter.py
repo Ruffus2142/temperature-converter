@@ -16,11 +16,6 @@ def kelvin_to_celsius(kelvin):
     """Конвертує Кельвін у Цельсій""" 
     return kelvin - 273.15
 
-def fahrenheit_to_kelvin(fahrenheit): 
-    """Конвертує Фаренгейт у Кельвін""" 
-    celsius = fahrenheit_to_celsius(fahrenheit) 
-    return celsius_to_kelvin(celsius)
-
 print("=== Конвертер температур ===") 
 print("1. Цельсій -> Фаренгейт") 
 print("2. Фаренгейт -> Цельсій") 
@@ -49,3 +44,5 @@ try:
     
 except ValueError: 
     print("Помилка: введіть коректне число!")
+
+# Test commit with PAT

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Temperature Converter v1.1
+=======
+# Temperature Converter v1.1.1
+>>>>>>> f7b592e814eb0a3b0bd63c77be0d142c675489f9
 
 def celsius_to_fahrenheit(celsius): 
     """Конвертує Цельсій у Фаренгейт""" 
@@ -15,11 +19,6 @@ def celsius_to_kelvin(celsius):
 def kelvin_to_celsius(kelvin): 
     """Конвертує Кельвін у Цельсій""" 
     return kelvin - 273.15
-
-def fahrenheit_to_kelvin(fahrenheit): 
-    """Конвертує Фаренгейт у Кельвін""" 
-    celsius = fahrenheit_to_celsius(fahrenheit) 
-    return celsius_to_kelvin(celsius)
 
 print("=== Конвертер температур ===") 
 print("1. Цельсій -> Фаренгейт") 
@@ -49,3 +48,15 @@ try:
     
 except ValueError: 
     print("Помилка: введіть коректне число!")
+
+# Test commit with PAT
+
+# Local change test
+
+# Web change test
+
+# Change 1
+
+# Change 2
+
+# Change 3
